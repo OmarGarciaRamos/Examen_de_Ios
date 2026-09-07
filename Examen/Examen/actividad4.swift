@@ -9,43 +9,46 @@ import SwiftUI
 
 struct actividad4: View {
     var body: some View {
-        HStack{
-            Rectangle()
-                .fill(.red)
-            VStack{
-                Circle()
-                HStack{
-                    Rectangle()
-                        .fill(.red)
-                    Circle()
-                }
-                
-            }
-            Rectangle()
-                .fill(.red)
-        }
-        HStack{
+        VStack{
             HStack{
-                Circle()
                 Rectangle()
-                    .fill(.red)
+                    .fill(.pink)
+                VStack{
+                    Circle()
+                    HStack{
+                        Rectangle()
+                            .fill(.cyan)
+                        Circle()
+                            .fill(.orange)
+                    }
+                }
+                Rectangle()
+                    .fill(.pink)
             }
-            Rectangle()
-                .fill(.red)
-        }
-        HStack{
-            
-            Rectangle()
-                .fill(.red)
-            
-            HStack{Circle()
+            HStack{
+            VStack{
+                HStack{
+                    Circle()
+                    Rectangle()
+                        .fill(.pink)
+                }
                 Rectangle()
-                    .fill(.red)
+                .fill(.pink)
+                }
+                VStack{
+                    Rectangle()
+                        
+                    HStack{
+                        Circle()
+                            .fill(.orange)
+                        Rectangle()
+                            .fill(.cyan)
+                    }
+                }
             }
         }
     }
 }
-
 #Preview {
     actividad4()
 }

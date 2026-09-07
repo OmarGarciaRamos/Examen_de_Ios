@@ -9,6 +9,10 @@ import SwiftUI
 
 struct actividad5: View {
     var body: some View {
+        VStack{
+            VStack {
+                
+            
         HStack {
             HStack {
                 Circle()
@@ -29,6 +33,7 @@ struct actividad5: View {
                     .fill(.orange)
             }
         }
+    }
         HStack {
             Rectangle()
                 .fill(.orange)
@@ -47,7 +52,7 @@ struct actividad5: View {
         }
     }
 }
-
+}
 #Preview {
     actividad5()
 }

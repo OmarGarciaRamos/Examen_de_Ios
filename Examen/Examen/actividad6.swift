@@ -23,22 +23,24 @@ struct actividad6: View {
                             Rectangle()
                                 .fill(Color.yellow)
                             HStack{
-                                Rectangle()
-                                HStack{
-                                    VStack{
-                                        Rectangle()
-                                            .fill(.cyan)
-                                        Rectangle()
-                                            .fill(.brown)
-                                    }
-                                    Rectangle()
-                                        .fill(.green)
-                                    
-                                }
-                                
-                            }
                             Rectangle()
                                 .fill(.orange)
+                                VStack{
+                                    HStack{
+                                        VStack{
+                                            Rectangle()
+                                                .fill(.blue)
+                                            Rectangle()
+                                                .fill(.cyan)
+                                        }
+                                        Rectangle()
+                                            .fill(.pink)
+                                    }
+                                    
+                                    Rectangle()
+                                        .fill(.pink)
+                                }
+                            }
                             
                         }
                         Rectangle()

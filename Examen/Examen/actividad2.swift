@@ -13,43 +13,47 @@ struct actividad2: View {
             HStack{
                 VStack{
                     Rectangle()
-                        .fill(.red)
                     
                     Circle()
+                        .fill(.pink)
                 }
                 
                 VStack{
                     Rectangle()
-                        .fill(.blue)
+                        .fill(.red)
                 }
                 
                 VStack{
                     Circle()
                     
                     Rectangle()
-                        .fill(.red)
+                        .fill(.purple)
                 }
             }
             HStack{
                 Circle()
+                    .fill(.purple)
                 VStack{
                     Rectangle()
-                        .fill(.blue)
+                        .fill(.red)
                     
                     Rectangle()
-                        .fill(.red)
                 }
                 Circle()
+                    .fill(.purple)
             }
             HStack{
                 VStack{
                     Rectangle()
+                        .fill(.purple)
                     
                     Circle()
                 }
                 Rectangle()
+                    .fill(.pink)
                 VStack{
                     Circle()
+                        .fill(.pink)
                     Rectangle()
                 }
             }
